@@ -1,18 +1,22 @@
 <!-- Describe task in general -->
 
 <p>
-    {{ENUNCIADO}}
+    Um fazendeiro emprega um robô-espantalho para proteger sua plantação de milho. O robô segue um caminho que circunda a plantação, passando por N estações numeradas sequencialmente no sentido horário. A cada dia, o robô começa na estação 1 e segue uma série de comandos que o movem para estações vizinhas, tanto no sentido horário quanto no anti-horário. </p>
+<img  title="example" src="{{MEDIA}}robo.png" alt="example" style="max-height: 300px"/>
+<p>
+Dado o número da estação mais próxima à área devastada e a sequência de comandos executados pelo robô em um dia, calcule quantas vezes o robô permaneceu na estação mais próxima à área devastada.
+
 </p>
 
 
 
 <!-- Explain input and output values -->
 <p>
-    <strong>Entrada </strong> {{ENTRADA}}
+    <strong>Entrada </strong> Uma lista onde o primeiro elemento é um inteiro N, o número de estações, seguido por um inteiro C, o número de comandos, e um inteiro S, o número da estação mais próxima à área devastada. A lista é seguida por C inteiros representando a sequência de comandos, onde 1 indica um movimento para a próxima estação no sentido horário, e -1 indica um movimento para a próxima estação no sentido anti-horário.
 </p>
 
 <p>
-    <strong>Saída: </strong> {{SAIDA}}
+    <strong>Saída: </strong> Um inteiro representando o número de vezes que o robô permaneceu na estação S durante o dia.
 </p>
 
 
@@ -28,7 +32,10 @@ countConsecutiveSummers(99) == 6
 </pre>
 {% else %}
 <pre class="brush: python">
-    {{EXEMPLOS}}
+    robô(8, 8, 3, [1, -1, 1, 1, 1, -1, 1, 1]) >> 2
+robô(5, 4, 1, [1, 1, 1, 1]) >> 1
+robô(2, 1, 1, [1]) >> 1
+
 </pre>
 {% endif %}
 </div>
