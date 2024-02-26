@@ -8,8 +8,8 @@ print(robo(2, 1, 1, [1]))
 
 # As funções assert são utilizadas para verificar se o resultado da função chamada é o esperado
 
-assert robô(8, 8, 3, [1, -1, 1, 1, 1, -1, 1, 1]) == 2
-assert robô(5, 4, 1, [1, 1, 1, 1]) == 1
-assert robô(2, 1, 1, [1]) == 1
+assert robo(8, 8, 3, [1, -1, 1, 1, 1, -1, 1, 1]) == 2
+assert robo(5, 4, 1, [1, 1, 1, 1]) == 1
+assert robo(2, 1, 1, [1]) == 1
 
 print("Seu código passou pelos testes, clique em Check para avançar!")
