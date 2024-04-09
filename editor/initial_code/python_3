@@ -12,6 +12,6 @@ assert robo(8, 8, 3, [1, -1, 1, 1, 1, -1, 1, 1]) == 2
 assert robo(5, 4, 1, [1, 1, 1, 1]) == 1
 assert robo(2, 1, 1, [1]) == 1
 assert robo(4, 4, 4, [-1, 1, 1, 1]) == 1
-assert robo(4, 7, 2, [1, 1, 1, 1, 1, 1, 1]) == 2
+assert robo(4, 6, 2, [1, 1, 1, 1, 1, 1]) == 2
 
 print("Seu código passou pelos testes, clique em Check para avançar!")
